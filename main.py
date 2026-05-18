@@ -4,10 +4,10 @@ def calculate_average(numbers):
     return sum(numbers) / len(numbers)
 
 def main():
-    print("Приложение запущено")
+    print("РџСЂРёР»РѕР¶РµРЅРёРµ Р·Р°РїСѓС‰РµРЅРѕ")
     test_data = [10, 20, 30]
     avg = calculate_average(test_data)
-    print(f"Среднее значение: {avg}")
+    print(f"РЎСЂРµРґРЅРµРµ Р·РЅР°С‡РµРЅРёРµ: {avg}")
 
 if __name__ == "__main__":
     main()
